@@ -1,5 +1,3 @@
-COMP30023 2025 - Project 1
-
 ./translate -f cases/task1/spec.txt -t task1 | diff - cases/task1/spec.out
 ./translate -f cases/task1/spec-mask.txt -t task1 | diff - cases/task1/spec-mask.out
 ./translate -f cases/task1/bound.txt -t task1 | diff - cases/task1/bound.out
